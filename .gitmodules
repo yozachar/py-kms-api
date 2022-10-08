@@ -1,0 +1,3 @@
+[submodule "py_kms_api/py-kms"]
+	path = py_kms_api/py-kms
+	url = https://github.com/Py-KMS-Organization/py-kms.git
