@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py-kms-api"
-version = "1.0.0"
+version = "1.0.1"
 description = "PyKMS API"
 authors = ["Jovial Joe Jayarson <jovial7joe@hotmail.com>"]
 license = "MIT"

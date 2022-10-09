@@ -3,7 +3,7 @@
 """
 
 # standard
-from subprocess import Popen
+from subprocess import CREATE_NO_WINDOW, Popen
 from pathlib import Path
 
 
@@ -14,7 +14,7 @@ def start_server() -> Popen[bytes]:
     """
     # Start KMS Server
     """
-    return Popen(['python', f'{__py_kms}/pykms_Server.py'])
+    return Popen(['python', f'{__py_kms}/pykms_Server.py'], creationflags=CREATE_NO_WINDOW)
     
 
 def stop_server(proc: Popen[bytes]) -> None:
